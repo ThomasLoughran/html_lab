@@ -12,9 +12,7 @@ header img {
     display: flex;
 }
 
-footer img {
-    max-width: 5%;
-}
+
 
 .header_left {
     width: 30%;
@@ -33,3 +31,36 @@ footer img {
     display: flex;
     justify-content: flex-end;
 }
+/* Nav bar */
+.main {
+    display: flex; 
+}
+
+/* section */
+.photos{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+/* .cell-2 img{
+    max-width: 100%;
+} */
+
+.cell img{
+    max-width: 100%;
+}
+
+
+/* footer */
+footer {
+    display:flex;
+    justify-content: space-around;
+}
+
+
+
+footer img {
+    max-width: 15%;
+}
+
