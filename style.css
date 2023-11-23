@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    max-width: 15%;
+}
+
+#header-search-bar {
+    justify-content:end;
+    display: flex;
+}
+
+footer img {
+    max-width: 5%;
+}
+
+.header_left {
+    width: 30%;
+    text-align: left;
+    align-items: left;
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header_right {
+    width: 30%;
+    text-align: right;
+    align-items: right;
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+}
